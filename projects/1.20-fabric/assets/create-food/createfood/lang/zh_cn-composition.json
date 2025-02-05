@@ -257,6 +257,29 @@
                     "": ""
                 }
             ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}_pizza": "{0}披萨",
+                "block.createfood.raw_{0}_pizza": "{0}披萨生坯"
+            },
+            "parameters": [
+                {
+                    "bacon": "培根",
+                    "cheese": "芝士",
+                    "fish_bacon": "鱼肉培根",
+                    "fish_onion": "鱼肉洋葱",
+                    "fish": "鱼肉披萨",
+                    "mushroom_bacon": "蘑菇培根",
+                    "mushroom_fish": "蘑菇鱼肉",
+                    "mushroom_onion": "蘑菇洋葱",
+                    "mushroom": "蘑菇",
+                    "onion_bacon": "洋葱培根",
+                    "onion": "洋葱",
+                    "sausage_bacon": "香肠培根",
+                    
+                }
+            ]
         }
     ]
 }
