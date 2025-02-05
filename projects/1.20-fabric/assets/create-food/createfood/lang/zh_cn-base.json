@@ -1,0 +1,14 @@
+{
+    "itemgroup.createfood": "Create: Food",
+    "text.autoconfig.createfood.category.CreateFood": "Create: Food",
+    "text.autoconfig.createfood.category.CreateFoodBlock": "Create: Food - 方块",
+    "text.autoconfig.createfood.category.CreateFoodFluid": "Create: Food - 流体",
+    "text.autoconfig.createfood.category.CulturalDelights": "Cultural Delights",
+    "text.autoconfig.createfood.category.End'sDelight": "End's Delight",
+    "text.autoconfig.createfood.category.ExpandedDelight": "Expanded Delight",
+    "text.autoconfig.createfood.category.Farmer'sDelight": "Farmer's Delight",
+    "text.autoconfig.createfood.category.Farmer'sRespite": "Farmer's Respite",
+    "text.autoconfig.createfood.category.Fright'sDelight": "Fright's Delight",
+    "text.autoconfig.createfood.category.Nether'sDelight": "Nether's Delight",
+    "text.autoconfig.createfood.category.Ube'sDelight": "Ube's Delight"
+}
