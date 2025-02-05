@@ -261,7 +261,8 @@
         {
             "templates": {
                 "block.createfood.{0}_pizza": "{0}披萨",
-                "block.createfood.raw_{0}_pizza": "{0}披萨生坯"
+                "block.createfood.raw_{0}_pizza": "{0}披萨生坯",
+                "item.createfood.{0}_pizza_slice": "{0}披萨切片"
             },
             "parameters": [
                 {
@@ -277,9 +278,43 @@
                     "onion_bacon": "洋葱培根",
                     "onion": "洋葱",
                     "sausage_bacon": "香肠培根",
-                    
+                    "sausage_fish": "香肠鱼肉",
+                    "sausage_mushroom": "香肠蘑菇",
+                    "sausage_onion": "香肠洋葱",
+                    "sausage": "香肠"
                 }
             ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PizzaEnabled": "启用{0}披萨",
+                "text.autoconfig.createfood.option.isRaw{0}PizzaEnabled": "启用{0}披萨生坯"
+            },
+            "parameters": [
+                {
+                    "Bacon": "培根",
+                    "Cheese": "芝士",
+                    "FishBacon": "鱼肉培根",
+                    "FishOnion": "鱼肉洋葱",
+                    "Fish": "鱼肉披萨",
+                    "MushroomBacon": "蘑菇培根",
+                    "MushroomFish": "蘑菇鱼肉",
+                    "MushroomOnion": "蘑菇洋葱",
+                    "Mushroom": "蘑菇",
+                    "OnionBacon": "洋葱培根",
+                    "Onion": "洋葱",
+                    "SausageBacon": "香肠培根",
+                    "SausageFish": "香肠鱼肉",
+                    "SausageMushroom": "香肠蘑菇",
+                    "SausageOnion": "香肠洋葱",
+                    "Sausage": "香肠"
+                }
+            ]
+        },
+        {
+            "templates": {
+                
+            }
         }
     ]
 }

@@ -23,6 +23,9 @@
 
     "text.autoconfig.createfood.option.isCheesecakeEnabled": "启用芝士蛋糕",
     "text.autoconfig.createfood.option.isCheesecakeFillingFluidEnabled": "启用芝士蛋糕馅料流体",
-    "text.autoconfig.createfood.option.isRawCheesecakeEnabled": "启用芝士蛋糕生坯"
+    "text.autoconfig.createfood.option.isRawCheesecakeEnabled": "启用芝士蛋糕生坯",
+    "text.autoconfig.createfood.option.isPizzaDoughEnabled": "启用披萨面团",
+    "text.autoconfig.createfood.option.isPizzaDoughTomatoSauceEnabled": "启用披萨面团（番茄酱）",
 
+    "text.autoconfig.createfood.title": "Create: Food 配置"
 }
