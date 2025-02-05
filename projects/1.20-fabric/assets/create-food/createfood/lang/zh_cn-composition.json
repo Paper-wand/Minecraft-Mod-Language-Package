@@ -3,11 +3,41 @@
     "entries": [
         {
             "templates": {
-
+                "block.createfood.{0}_cheesecake": "{0}芝士蛋糕",
+                "block.createfood.raw_{0}_cheesecake": "{0}芝士蛋糕生坯",
+                "item.createfood.{0}_cheesecake_slice": "{0}芝士蛋糕切片"
             },
             "parameters": [
                 {
-                    
+                    "apple": "苹果",
+                    "berry": "甜浆果",
+                    "chorus_fruit": "紫颂果",
+                    "glow_berry": "发光浆果"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}CheesecakeEnabled": "启用{0}芝士蛋糕"
+            },
+            "parameters": [
+                {
+                    "Apple": "苹果",
+                    "ChorusFruit": "紫颂果",
+                    "GlowBerry": "发光浆果"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isRaw{0}CheesecakeEnabled": "启用{0}芝士蛋糕生坯"
+            },
+            "parameters": [
+                {
+                    "Apple": "苹果",
+                    "Berry": "甜浆果",
+                    "ChorusFruit": "紫颂果",
+                    "GlowBerry": "发光浆果"
                 }
             ]
         }
