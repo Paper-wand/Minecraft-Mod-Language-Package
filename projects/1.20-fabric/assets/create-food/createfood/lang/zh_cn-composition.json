@@ -40,6 +40,49 @@
                     "GlowBerry": "发光浆果"
                 }
             ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}_{1}_block": "{0}{1}流体",
+                "item.createfood.{0}_{1}_bucket": "{0}{1}桶"
+            },
+            "parameters" : [
+                {
+                    "apple": "苹果",
+                    "berry": "甜浆果",
+                    "chorus_fruit": "紫颂果",
+                    "glow_berry": "发光浆果"
+                },
+                {
+                    "cream_frosting": "奶油糖霜",
+                    "ice_cream": "冰淇淋",
+                    "jam": "酱",
+                    "juice": "汁",
+                    "milkshake": "奶昔",
+                    "pie_filling": "派馅料"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}{1}FluidEnabled": "启用{0}{1}流体"
+            },
+            "parameters": [
+                {
+                    "Apple": "苹果",
+                    "Berry": "甜浆果",
+                    "ChorusFruit": "紫颂果",
+                    "GlowBerry": "发光浆果"
+                },
+                {
+                    "CreamFrosting": "奶油糖霜",
+                    "IceCream": "冰淇淋",
+                    "Jam": "酱",
+                    "Juice": "汁",
+                    "Milkshake": "奶昔",
+                    "PieFilling": "派馅料"
+                }
+            ]
         }
     ]
 }
