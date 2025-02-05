@@ -83,6 +83,85 @@
                     "PieFilling": "派馅料"
                 }
             ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}_pie": "{0}派",
+                "item.createfood.{0}_pie_slice": "{0}派切片",
+                "block.createfood.raw_{0}_pie": "{0}派生坯"
+            },
+            "parameters": [
+                {
+                    "apple": "苹果",
+                    "berry": "甜浆果",
+                    "chorus_fruit": "紫颂果",
+                    "glow_berry": "发光浆果"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}_pie_slice": "{0}派切片"
+            },
+            "parameters": [
+                {
+                    "smores": "棉花糖夹心饼干",
+                    "chocolate": "巧克力",
+                    "cookie_cream": "曲奇奶油"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}_pie": "{0}派",
+                "item.createfood.mini_{0}_pie": "迷你{0}派"
+            },
+            "parameters": [
+                {
+                    "smores": "棉花糖夹心饼干",
+                    "cookie_cream": "曲奇奶油"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.createfood.raw_{0}_pie": "{0}派生坯"
+            },
+            "parameters": [
+                {
+                    "chocolate": "巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PieEnabled": "启用{0}派"
+            },
+            "parameters": [
+                {
+                    "Berry": "甜浆果",
+                    "ChorusFruit": "紫颂果",
+                    "CookieCream": "曲奇奶油",
+                    "GlowBerry": "发光浆果",
+                    "MiniCookieCream": "迷你曲奇奶油",
+                    "MiniSmores": "迷你棉花糖夹心饼干",
+                    "Smores": "棉花糖夹心饼干"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isRaw{0}PieEnabled": "启用{0}派生坯"
+            },
+            "parameters": [
+                {
+                    "Apple": "苹果",
+                    "Berry": "甜浆果",
+                    "Chocolate": "巧克力",
+                    "ChorusFruit": "紫颂果",
+                    "GlowBerry": "发光浆果"
+                }
+            ]
         }
     ]
 }
