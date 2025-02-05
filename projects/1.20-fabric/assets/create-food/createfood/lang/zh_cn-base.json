@@ -2,6 +2,7 @@
     "block.createfood.cheesecake": "芝士蛋糕",
     "block.createfood.cheesecake_filling_block": "芝士蛋糕馅料流体",
     "block.createfood.raw_cheesecake": "芝士蛋糕生坯",
+    "block.createfood.raw_pie_crust": "馅饼酥皮生胚",
     "item.createfood.cheesecake_filling_bucket": "芝士蛋糕馅料桶",
     "item.createfood.cheesecake_slice": "芝士蛋糕切片",
 
@@ -21,4 +22,5 @@
     "text.autoconfig.createfood.option.isCheesecakeEnabled": "启用芝士蛋糕",
     "text.autoconfig.createfood.option.isCheesecakeFillingFluidEnabled": "启用芝士蛋糕馅料流体",
     "text.autoconfig.createfood.option.isRawCheesecakeEnabled": "启用芝士蛋糕生坯"
+
 }

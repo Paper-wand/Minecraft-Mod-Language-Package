@@ -212,6 +212,51 @@
                     "GrahamCracker": "全麦粉饼干"
                 }
             ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}{1}{2}_pie_crust": "{1}{2}馅饼酥皮{0}"
+            },
+            "parameters": [
+                {
+                    "raw_": "生坯",
+                    "": ""
+                },
+                {
+                    "mini_": "迷你",
+                    "": ""
+                },
+                {
+                    "chocolate_graham_cracker": "巧克力全麦粉饼干",
+                    "graham_cracker": "全麦粉饼干"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PieCrustEnabled": "启用{0}馅饼酥皮"
+            },
+            "parameters": [
+                {
+                    "ChocolateGrahamCracker": "巧克力全麦粉饼干",
+                    "GrahamCracker": "全麦粉饼干",
+                    "MiniChocolateGrahamCracker": "迷你巧克力全麦粉饼干",
+                    "MiniGrahamCracker": "迷你全麦粉饼干"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isRaw{0}PieCrustEnabled": "启用{0}馅饼酥皮生胚"
+            },
+            "parameters": [
+                {
+                    "GrahamCracker": "全麦粉饼干",
+                    "MiniChocolateGrahamCracker": "迷你巧克力全麦粉饼干",
+                    "MiniGrahamCracker": "迷你全麦粉饼干",
+                    "": ""
+                }
+            ]
         }
     ]
 }
