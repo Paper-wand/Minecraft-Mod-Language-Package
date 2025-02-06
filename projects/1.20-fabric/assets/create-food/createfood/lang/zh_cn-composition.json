@@ -627,6 +627,79 @@
                     "Yogurt": "酸奶"
                 }
             ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}waffle": "{0}华夫饼"
+            },
+            "parameters": [
+                {
+                    "butterscotch_chip_": "奶油硬糖碎片",
+                    "caramel_chip_": "焦糖碎片",
+                    "chocolate_chip_": "巧克力碎片",
+                    "": "",
+                    "dark_chocolate_chip_": "黑巧克力碎片",
+                    "toffee_chip_": "太妃糖碎片",
+                    "white_chocolate_chip_": "白巧克力碎片"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}mini_waffle": "{0}迷你华夫饼"
+            },
+            "parameters": [
+                {
+                    "apple_cream_frosted_": "苹果奶油糖霜",
+                    "berry_cream_frosted_": "甜浆果奶油糖霜",
+                    "butterscotch_chip_": "奶油硬糖碎片",
+                    "caramel_chip_": "焦糖碎片",
+                    "chocolate_chip_": "巧克力碎片",
+                    "chocolate_cream_frosted_": "巧克力奶油糖霜",
+                    "chorus_fruit_cream_frosted_": "紫颂果奶油糖霜",
+                    "dark_chocolate_chip_": "黑巧克力碎片",
+                    "frosted_": "糖霜",
+                    "glow_berry_cream_frosted_": "发光浆果奶油糖霜",
+                    "honeyed_": "蜂蜜",
+                    "melon_cream_frosted_": "西瓜奶油糖霜",
+                    "": "",
+                    "toffee_chip_": "太妃糖碎片",
+                    "white_chocolate_chip_": "白巧克力碎片"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}WaffleBlockEnabled": "启用{0}华夫饼"
+            },
+            "parameters": [
+                {
+                    "ButterscotchChip": "奶油硬糖碎片",
+                    "CaramelChip": "焦糖碎片",
+                    "ChocolateChip": "巧克力碎片",
+                    "": "",
+                    "DarkChocolateChip": "黑巧克力碎片",
+                    "ToffeeChip": "太妃糖碎片",
+                    "WhiteChocolateChip": "白巧克力碎片"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}MiniWaffleEnabled": "启用{0}迷你华夫饼"
+            },
+            "parameters": [
+                {
+                    "AppleCreamFrosted": "苹果奶油糖霜",
+                    "BerryCreamFrosted": "甜浆果奶油糖霜",
+                    "ChocolateCreamFrosted": "巧克力奶油糖霜",
+                    "ChorusFruitCreamFrosted": "紫颂果奶油糖霜",
+                    "Frosted": "糖霜",
+                    "GlowBerryCreamFrosted": "发光浆果奶油糖霜",
+                    "Honeyed": "蜂蜜",
+                    "MelonCreamFrosted": "西瓜奶油糖霜"
+                }
+            ]
         }
     ]
 }

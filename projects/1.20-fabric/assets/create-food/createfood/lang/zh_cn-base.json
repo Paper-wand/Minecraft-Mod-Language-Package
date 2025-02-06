@@ -8,6 +8,12 @@
 
     "item.createfood.cheesecake_slice": "芝士蛋糕切片",
     "item.createfood.gelatin": "明胶",
+    "item.createfood.melon_juice_bucket": "西瓜汁桶",
+    "item.createfood.waffle_cone": "华夫饼筒",
+    "item.createfood.berry_cream_frosted_mini_waffle_sweet_berry": "甜浆果奶油糖霜迷你华夫饼（甜浆果）",
+    "item.createfood.chorus_fruit_cream_frosted_mini_waffle_chorus_fruit": "紫颂果奶油糖霜迷你华夫饼（紫颂果）",
+    "item.createfood.glow_berry_cream_frosted_mini_waffle_glow_berry": "发光浆果奶油糖霜迷你华夫饼（发光浆果）",
+
 
 
     "itemgroup.createfood": "Create: Food",
@@ -28,6 +34,13 @@
     "text.autoconfig.createfood.option.isPizzaDoughEnabled": "启用披萨面团",
     "text.autoconfig.createfood.option.isPizzaDoughTomatoSauceEnabled": "启用披萨面团（番茄酱）",
     "text.autoconfig.createfood.option.isGelatinEnabled": "启用明胶",
+    "text.autoconfig.createfood.option.isBerryCreamFrostedMiniWaffleSweetBerryEnabled": "启用甜浆果奶油糖霜迷你华夫饼（甜浆果）",
+    "text.autoconfig.createfood.option.isChorusFruitCreamFrostedMiniWaffleChorusFruitEnabled": "启用紫颂果奶油糖霜迷你华夫饼（紫颂果）",
+    "text.autoconfig.createfood.option.isGlowBerryCreamFrostedMiniWaffleGlowBerryEnabled": "启用发光浆果奶油糖霜迷你华夫饼（发光浆果）",
+    "text.autoconfig.createfood.option.isWaffleConeEnabled": "启用华夫饼筒",
+
+
+
 
     "text.autoconfig.createfood.title": "Create: Food 配置"
 }
