@@ -514,6 +514,8 @@
                     "butterscotch": "奶油硬糖",
                     "butterscotch_fudge": "奶油软糖",
                     "cacao_butter": "可可脂",
+                    "cacao_mass": "可可原浆",
+                    "cane_syrup": "甘蔗糖浆",
                     "caramel": "焦糖",
                     "caramel_fudge": "焦糖软糖",
                     "cheesecake_filling": "芝士蛋糕馅料",
@@ -560,18 +562,71 @@
         },
         {
             "templates": {
-                "block.createfood.{0}_block": "{0}浆",
-                "item.createfood.{0}_bucket": "{0}浆桶"
+                "text.autoconfig.createfood.option.is{0}FluidEnabled": "启用{0}流体"
             },
             "parameters": [
                 {
-                    "cacao_mass": "可可原",
-                    "cane_syrup": "甘蔗糖"
+                    "BlackstrapMolasses": "黑糖蜜",
+                    "Butterscotch": "奶油硬糖",
+                    "ButterscotchFudge": "奶油软糖",
+                    "CacaoButter": "可可脂",
+                    "CacaoMass": "可可原浆",
+                    "CaneSyrup": "甘蔗糖浆",
+                    "Caramel": "焦糖",
+                    "CaramelFudge": "焦糖软糖",
+                    "CheesecakeFilling": "芝士蛋糕馅料",
+                    "ChocolateCreamFrosting": "巧克力奶油糖霜",
+                    "ChocolateFudge": "巧克力软糖",
+                    "ChocolateIceCream": "巧克力冰淇淋",
+                    "ChocolateMilk": "巧克力牛奶",
+                    "ChocolateMilkshake": "巧克力奶昔",
+                    "CoffeeToffee": "咖啡太妃糖",
+                    "CoffeeToffeeFudge": "咖啡太妃软糖",
+                    "CondensedMilk": "炼乳",
+                    "CreamCheese": "奶油芝士",
+                    "CreamFrosting": "奶油糖霜",
+                    "CreamPieFilling": "奶油派馅料",
+                    "DarkChocolate": "黑巧克力",
+                    "DarkChocolateFudge": "黑巧克力软糖",
+                    "FruitSmoothie": "水果冰沙",
+                    "HeavyCream": "浓奶油",
+                    "HotChocolate": "热巧克力",
+                    "HotDarkChocolate": "热黑巧克力",
+                    "HotWhiteChocolate": "热白巧克力",
+                    "IceCream": "冰淇淋",
+                    "MelonCreamFrosting": "西瓜奶油糖霜",
+                    "MelonIceCream": "西瓜冰淇淋",
+                    "MelonJam": "西瓜酱",
+                    "MelonMilkshake": "西瓜奶昔",
+                    "Milkshake": "奶昔",
+                    "Molasses": "糖蜜",
+                    "Slime": "黏液",
+                    "SourCream": "酸奶油",
+                    "SquidInk": "鱿鱼墨汁",
+                    "SugarCaneJuice": "甘蔗汁",
+                    "Toffee": "太妃糖",
+                    "ToffeeFudge": "太妃软糖",
+                    "UbeCreamFrosting": "香芋奶油糖霜",
+                    "VegetableOil": "植物油",
+                    "Vinegar": "醋",
+                    "WaffleBatter": "华夫饼面糊",
+                    "WhiteChocolate": "白巧克力",
+                    "WhiteChocolateFudge": "白巧克力软糖",
+                    "Yogurt": "酸奶"
                 }
             ]
         },
         {
-            "templates"
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}BucketEnabled": "启用{0}桶"
+            },
+            "parameters": [
+                {
+                    "FruitSmoothie": "水果冰沙",
+                    "SourCream": "酸奶油",
+                    "Yogurt": "酸奶"
+                }
+            ]
         }
     ]
 }
