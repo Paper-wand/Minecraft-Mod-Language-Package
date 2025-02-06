@@ -1,14 +1,14 @@
 {
     "block.createfood.cheesecake": "芝士蛋糕",
-    "block.createfood.cheesecake_filling_block": "芝士蛋糕馅料流体",
     "block.createfood.raw_cheesecake": "芝士蛋糕生坯",
     "block.createfood.raw_pie_crust": "馅饼酥皮生胚",
     "block.createfood.pizza_dough": "披萨面团",
     "block.createfood.pizza_dough_tomato_sauce": "披萨面团（番茄酱）",
     "block.minecraft.cake": "蛋糕（甜浆果）",
 
-    "item.createfood.cheesecake_filling_bucket": "芝士蛋糕馅料桶",
     "item.createfood.cheesecake_slice": "芝士蛋糕切片",
+    "item.createfood.gelatin": "明胶",
+
 
     "itemgroup.createfood": "Create: Food",
     "text.autoconfig.createfood.category.CreateFood": "Create: Food",
@@ -28,6 +28,7 @@
     "text.autoconfig.createfood.option.isRawCheesecakeEnabled": "启用芝士蛋糕生坯",
     "text.autoconfig.createfood.option.isPizzaDoughEnabled": "启用披萨面团",
     "text.autoconfig.createfood.option.isPizzaDoughTomatoSauceEnabled": "启用披萨面团（番茄酱）",
+    "text.autoconfig.createfood.option.isGelatinEnabled": "启用明胶",
 
     "text.autoconfig.createfood.title": "Create: Food 配置"
 }

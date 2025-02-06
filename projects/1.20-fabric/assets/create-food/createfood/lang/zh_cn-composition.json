@@ -447,6 +447,131 @@
                     "MelonCreamFrosted": "西瓜奶油糖霜"
                 }
             ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}gelatin_dessert_block": "{0}明胶甜品块",
+                "block.createfood.{0}gelatin_mix_block": "{0}明胶混合物流体",
+                "item.createfood.{0}gelatin_dessert_slice": "{0}明胶甜品切片",
+                "item.createfood.{0}gelatin_mix_bucket": "{0}明胶混合物桶"              
+            },
+            "parameters": [
+                {
+                    "black_": "黑色",
+                    "blue_": "蓝色",
+                    "brow_": "棕色",
+                    "cyan_": "青色",
+                    "gray_": "灰色",
+                    "green_": "绿色",
+                    "light_blue_": "淡蓝色",
+                    "light_gray_": "淡灰色",
+                    "lime_": "黄绿色",
+                    "magenta_": "品红色",
+                    "orange_": "橙色",
+                    "pink_": "粉红色",
+                    "purple_": "紫色",
+                    "red_": "红色",
+                    "": "",
+                    "yellow_": "黄色"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}GelatinDessertBlockEnabled": "启用{0}明胶甜品块",
+                "text.autoconfig.createfood.option.is{0}GelatinDessertSliceEnabled": "启用{0}明胶甜品切片",
+                "text.autoconfig.createfood.option.is{0}GelatinMixFluidEnabled": "启用{0}明胶混合物流体"              
+            },
+            "parameters": [
+                {
+                    "Black": "黑色",
+                    "Blue": "蓝色",
+                    "Brown": "棕色",
+                    "Cyan": "青色",
+                    "Gray": "灰色",
+                    "Green": "绿色",
+                    "LightBlue": "淡蓝色",
+                    "LightGray": "淡灰色",
+                    "Lime": "黄绿色",
+                    "Magenta": "品红色",
+                    "Orange": "橙色",
+                    "Pink": "粉红色",
+                    "Purple": "紫色",
+                    "Red": "红色",
+                    "": "",
+                    "Yellow": "黄色"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}_block": "{0}流体",
+                "item.createfood.{0}_bucket": "{0}桶"
+            },
+            "parameters": [
+                {
+                    "blackstrap_molasses": "黑糖蜜",
+                    "butterscotch": "奶油硬糖",
+                    "butterscotch_fudge": "奶油软糖",
+                    "cacao_butter": "可可脂",
+                    "caramel": "焦糖",
+                    "caramel_fudge": "焦糖软糖",
+                    "cheesecake_filling": "芝士蛋糕馅料",
+                    "chocolate_cream_frosting": "巧克力奶油糖霜",
+                    "chocolate_fudge": "巧克力软糖",
+                    "chocolate_ice_cream": "巧克力冰淇淋",
+                    "chocolate_milk": "巧克力牛奶",
+                    "chocolate_milkshake": "巧克力奶昔",
+                    "coffee_toffee": "咖啡太妃糖",
+                    "coffee_toffee_fudge": "咖啡太妃软糖",
+                    "condensed_milk": "炼乳",
+                    "cream_cheese": "奶油芝士",
+                    "cream_frosting": "奶油糖霜",
+                    "cream_pie_filling": "奶油派馅料",
+                    "dark_chocolate": "黑巧克力",
+                    "dark_chocolate_fudge": "黑巧克力软糖",
+                    "fruit_smoothie": "水果冰沙",
+                    "heavy_cream": "浓奶油",
+                    "hot_chocolate": "热巧克力",
+                    "hot_dark_chocolate": "热黑巧克力",
+                    "hot_white_chocolate": "热白巧克力",
+                    "ice_cream": "冰淇淋",
+                    "melon_cream_frosting": "西瓜奶油糖霜",
+                    "melon_ice_cream": "西瓜冰淇淋",
+                    "melon_jam": "西瓜酱",
+                    "melon_milkshake": "西瓜奶昔",
+                    "milkshake": "奶昔",
+                    "molasses": "糖蜜",
+                    "slime": "黏液",
+                    "sour_cream": "酸奶油",
+                    "squid_ink": "鱿鱼墨汁",
+                    "sugar_cane_juice": "甘蔗汁",
+                    "toffee": "太妃糖",
+                    "toffee_fudge": "太妃软糖",
+                    "ube_cream_frosting": "香芋奶油糖霜",
+                    "vegetable_oil": "植物油",
+                    "vinegar": "醋",
+                    "waffle_batter": "华夫饼面糊",
+                    "white_chocolate": "白巧克力",
+                    "white_chocolate_fudge": "白巧克力软糖",
+                    "yogurt": "酸奶"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}_block": "{0}浆",
+                "item.createfood.{0}_bucket": "{0}浆桶"
+            },
+            "parameters": [
+                {
+                    "cacao_mass": "可可原",
+                    "cane_syrup": "甘蔗糖"
+                }
+            ]
+        },
+        {
+            "templates"
         }
     ]
 }
