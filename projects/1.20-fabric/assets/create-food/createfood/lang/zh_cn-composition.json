@@ -86,27 +86,14 @@
         },
         {
             "templates": {
-                "block.createfood.{0}_pie": "{0}派",
-                "item.createfood.{0}_pie_slice": "{0}派切片",
-                "block.createfood.raw_{0}_pie": "{0}派生坯"
+                "block.createfood.{0}_pie": "{0}派"
             },
             "parameters": [
                 {
                     "apple": "苹果",
                     "berry": "甜浆果",
                     "chorus_fruit": "紫颂果",
-                    "glow_berry": "发光浆果"
-                }
-            ]
-        },
-        {
-            "templates": {
-                "block.createfood.{0}_pie": "{0}派",
-                "item.createfood.{0}_pie_slice": "{0}派切片",
-                "item.createfood.mini_{0}_pie": "迷你{0}派"
-            },
-            "parameters": [
-                {
+                    "glow_berry": "发光浆果",
                     "smores": "棉花糖夹心饼干",
                     "cookie_cream": "曲奇奶油"
                 }
@@ -114,12 +101,42 @@
         },
         {
             "templates": {
-                "item.createfood.{0}_pie_slice": "{0}派切片",
+                "item.createfood.{0}_pie_slice": "{0}派切片"
+            },
+            "parameters": [
+                {
+                    "apple": "苹果",
+                    "berry": "甜浆果",
+                    "chorus_fruit": "紫颂果",
+                    "glow_berry": "发光浆果",
+                    "smores": "棉花糖夹心饼干",
+                    "cookie_cream": "曲奇奶油",
+                    "chocolate": "巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
                 "block.createfood.raw_{0}_pie": "{0}派生坯"
             },
             "parameters": [
                 {
+                    "apple": "苹果",
+                    "berry": "甜浆果",
+                    "chorus_fruit": "紫颂果",
+                    "glow_berry": "发光浆果",
                     "chocolate": "巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.mini_{0}_pie": "迷你{0}派"
+            },
+            "parameters": [
+                {
+                    "smores": "棉花糖夹心饼干",
+                    "cookie_cream": "曲奇奶油"
                 }
             ]
         },
@@ -313,8 +330,123 @@
         },
         {
             "templates": {
-                
-            }
+                "block.createfood.{0}cake_chorus_fruit": "{0}蛋糕（紫颂果）",
+                "block.createfood.{0}cake_glow_berry": "{0}蛋糕（发光浆果）",
+                "item.createfood.{0}cake_slice_chorus_fruit": "蛋糕切片（紫颂果）",
+                "item.createfood.{0}cake_slice_glow_berry": "蛋糕切片（发光浆果）"
+            },
+            "parameters": [
+                {
+                    "berry_cream_": "甜浆果奶油",
+                    "chorus_fruit_cream_": "紫颂果奶油",
+                    "glow_berry_cream_": "发光浆果奶油",
+                    "": ""
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}frosted_cake": "{0}糖霜蛋糕"
+            },
+            "parameters": [
+                {
+                    "berry_cream_": "甜浆果奶油",
+                    "chorus_fruit_cream_": "紫颂果奶油",
+                    "glow_berry_cream_": "发光浆果奶油",
+                    "chocolate_cream_": "巧克力奶油",
+                    "": ""
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}cake_sweet_berry": "{0}蛋糕（甜浆果）",
+                "item.createfood.{0}cake_slice_sweet_berry": "蛋糕切片（甜浆果）"
+            },
+            "parameters": [
+                {
+                    "berry_cream_": "甜浆果奶油",
+                    "chorus_fruit_cream_": "紫颂果奶油",
+                    "glow_berry_cream_": "发光浆果奶油"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}CakeChorusFruitEnabled": "启用{0}蛋糕（紫颂果）",
+                "text.autoconfig.createfood.option.is{0}CakeGlowBerryEnabled": "启用{0}蛋糕（发光浆果）",
+                "text.autoconfig.createfood.option.is{0}FrostedCakeEnabled": "启用{0}糖霜蛋糕"             
+            },
+            "parameters": [
+                {
+                    "BerryCream": "甜浆果奶油",
+                    "ChorusFruitCream": "紫颂果奶油",
+                    "GlowBerryCream": "发光浆果奶油",
+                    "": ""
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}CakeSweetBerryEnabled": "启用{0}蛋糕（甜浆果）"
+            },
+            "parameters": [
+                {
+                    "BerryCream": "甜浆果奶油",
+                    "ChorusFruitCream": "紫颂果奶油",
+                    "GlowBerryCream": "发光浆果奶油"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "block.createfood.chocolate_cream_cake_{0}": "巧克力奶油蛋糕（{0}）",
+                "item.createfood.chocolate_cream_cake_slice_{0}": "巧克力奶油蛋糕切片（{0}）"
+            },
+            "parameters": [
+                {
+                    "butterscotch": "奶油硬糖碎片",
+                    "caramel": "焦糖碎片",
+                    "chocolate": "巧克力碎片",
+                    "dark_chocolate": "黑巧克力碎片",
+                    "toffee": "太妃糖碎片",
+                    "white_chocolate": "白巧克力碎片"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}_cupcake": "{0}纸杯蛋糕"
+            },
+            "parameters": [
+                {
+                    "apple_cream_frosted": "苹果奶油糖霜",
+                    "berry_cream_frosted": "甜浆果奶油糖霜",
+                    "chocolate_cream_frosted": "巧克力奶油糖霜",
+                    "chorus_fruit_cream_frosted": "紫颂果奶油糖霜",
+                    "frosted": "糖霜",
+                    "glow_berry_cream_frosted": "发光浆果奶油糖霜",
+                    "honeyed": "蜂蜜",
+                    "melon_cream_frosted": "西瓜奶油糖霜"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}CupcakeEnabled": "启用{0}纸杯蛋糕"
+            },
+            "parameters": [
+                {
+                    "AppleCreamFrosted": "苹果奶油糖霜",
+                    "BerryCreamFrosted": "甜浆果奶油糖霜",
+                    "ChocolateCreamFrosted": "巧克力奶油糖霜",
+                    "ChorusFruitCreamFrosted": "紫颂果奶油糖霜",
+                    "Frosted": "糖霜",
+                    "GlowBerryCreamFrosted": "发光浆果奶油糖霜",
+                    "Honeyed": "蜂蜜",
+                    "MelonCreamFrosted": "西瓜奶油糖霜"
+                }
+            ]
         }
     ]
 }
