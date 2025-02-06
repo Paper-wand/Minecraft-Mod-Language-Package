@@ -700,6 +700,17 @@
                     "MelonCreamFrosted": "西瓜奶油糖霜"
                 }
             ]
+        },
+        {
+            "templates": {
+                "block.createfood.{0}_base": "{0}坯"
+            },
+            "parameters": [
+                {
+                    "cake": "蛋糕",
+                    "ube_cake": "香芋蛋糕"
+                }
+            ]
         }
     ]
 }
