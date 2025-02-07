@@ -711,6 +711,102 @@
                     "ube_cake": "香芋蛋糕"
                 }
             ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}_base": "{0}坯"
+            },
+            "parameters": [
+                {
+                    "chocolate_donut": "巧克力甜甜圈",
+                    "chocolate_pastry_bar": "巧克力酥皮条",
+                    "chocolate_pastry": "巧克力油酥糕点",
+                    "chocolate_sweet_roll": "巧克力甜面包卷",
+                    "cinnamon_sweet_roll": "肉桂甜面包卷",
+                    "cupcake": "纸杯蛋糕",
+                    "donut": "甜甜圈",
+                    "muffin": "松糕",
+                    "pastry_bar": "酥皮条",
+                    "pastry": "油酥糕点",
+                    "sweet_roll": "甜面包卷"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.raw_{0}_base": "{0}生坯"
+            },
+            "parameters": [
+                {
+                    "cake": "蛋糕",
+                    "ube_cake": "香芋蛋糕",
+                    "chocolate_pastry_bar": "巧克力酥皮条",
+                    "chocolate_pastry": "巧克力油酥糕点",
+                    "chocolate_sweet_roll": "巧克力甜面包卷",
+                    "cinnamon_sweet_roll": "肉桂甜面包卷",
+                    "pastry_bar": "酥皮条",
+                    "pastry": "油酥糕点",
+                    "sweet_roll": "甜面包卷"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}BaseEnabled": "启用{0}坯"
+            },
+            "parameters": [
+                {
+                    "AppleCreamChocolatePastry": "苹果奶油馅巧克力油酥糕点",
+                    "AppleCreamPastry": "苹果奶油馅油酥糕点",
+                    "BerryCreamChocolatePastry": "甜浆果奶油馅巧克力油酥糕点",
+                    "BerryCreamPastry": "甜浆果奶油馅油酥糕点",
+                    "Cake": "蛋糕",
+                    "UbeCake": "香芋蛋糕",
+                    "ChocolateDonut": "巧克力甜甜圈",
+                    "ChocolatePastryBar": "巧克力酥皮条",
+                    "ChocolatePastry": "巧克力油酥糕点",
+                    "ChocolateSweetRoll": "巧克力甜面包卷",
+                    "ChorusFruitChocolatePastry": "紫颂果巧克力油酥糕点",
+                    "ChorusFruitPastry": "紫颂果油酥糕点",
+                    "CinnamonSweetRoll": "肉桂甜面包卷",
+                    "Cupcake": "纸杯蛋糕",
+                    "Donut": "甜甜圈",
+                    "GlowBerryCreamChocolatePastry": "发光浆果奶油馅巧克力油酥糕点",
+                    "GlowBerryCreamPastry": "发光浆果奶油馅油酥糕点",
+                    "MelonCreamChocolatePastry": "西瓜奶油馅巧克力油酥糕点",
+                    "MelonCreamPastry": "西瓜奶油馅油酥糕点",
+                    "Muffin": "松糕",
+                    "PastryBar": "酥皮条",
+                    "Pastry": "油酥糕点",
+                    "SweetRoll": "甜面包卷"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isRaw{0}BaseEnabled": "启用{0}生坯"
+            },
+            "parameters": [
+                {
+                    "ChocolatePastryBar": "巧克力酥皮条",
+                    "ChocolatePastry": "巧克力油酥糕点",
+                    "ChocolateSweetRoll": "巧克力甜面包卷",
+                    "CinnamonSweetRoll": "肉桂甜面包卷",
+                    "PastryBar": "酥皮条",
+                    "Pastry": "油酥糕点",
+                    "SweetRoll": "甜面包卷"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.raw_{0}": "{0}生坯"
+            },
+            "parameters": [
+                {
+                    "cupcake": "纸杯蛋糕"
+                }
+            ]
         }
     ]
 }
