@@ -14,6 +14,7 @@
     "item.createfood.chorus_fruit_cream_frosted_mini_waffle_chorus_fruit": "紫颂果奶油糖霜迷你华夫饼（紫颂果）",
     "item.createfood.glow_berry_cream_frosted_mini_waffle_glow_berry": "发光浆果奶油糖霜迷你华夫饼（发光浆果）",
     "block.createfood.ube_cream_frosted_ube_cake": "香芋奶油糖霜香芋蛋糕",
+    "item.createfood.raw_cupcake": "纸杯蛋糕生坯",
 
 
     "itemgroup.createfood": "Create: Food",
@@ -39,7 +40,7 @@
     "text.autoconfig.createfood.option.isGlowBerryCreamFrostedMiniWaffleGlowBerryEnabled": "启用发光浆果奶油糖霜迷你华夫饼（发光浆果）",
     "text.autoconfig.createfood.option.isWaffleConeEnabled": "启用华夫饼筒",
     "text.autoconfig.createfood.option.isUbeCreamFrostedUbeCakeEnabled": "启用香芋奶油糖霜香芋蛋糕",
-
+    "text.autoconfig.createfood.option.isRawCupcakeEnabled": "启用纸杯蛋糕生坯",
 
 
 

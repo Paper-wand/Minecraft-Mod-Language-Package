@@ -807,6 +807,12 @@
                     "cupcake": "纸杯蛋糕"
                 }
             ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}_pastry_bar": "Apple Cream Filled Pastry Bar",
+                "item.createfood.{0}_chocolate_pastry_bar": "Apple Cream Filled Chocolate Pastry Bar"
+            }
         }
     ]
 }
