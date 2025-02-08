@@ -16,6 +16,8 @@
     "block.createfood.ube_cream_frosted_ube_cake": "香芋奶油糖霜香芋蛋糕",
     "item.createfood.raw_cupcake": "纸杯蛋糕生坯",
     "item.createfood.chocolate_sweet_roll": "巧克力甜面包卷",
+    "item.createfood.bacon_sandwich_lettuce": "培根三明治（生菜）",
+    "item.createfood.ice_cream_sandwich_neapolitan": "冰淇淋三明治（那不勒斯冰淇淋）",
 
 
     "itemgroup.createfood": "Create: Food",
