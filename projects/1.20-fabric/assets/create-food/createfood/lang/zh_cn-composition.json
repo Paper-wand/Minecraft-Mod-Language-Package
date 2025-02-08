@@ -1813,6 +1813,103 @@
                     "Toast": "吐司"
                 }
             ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_toast": "{0}吐司"
+            },
+            "parameters": [
+                {
+                    "buttered": "黄油",
+                    "caramel": "焦糖",
+                    "chocolate": "巧克力",
+                    "dark_chocolate": "黑巧克力",
+                    "honeyed": "蜂蜜",
+                    "white_chocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}ToastEnabled": "启用{0}吐司"
+            },
+            "parameters": [
+                {
+                    "Buttered": "黄油",
+                    "Caramel": "焦糖",
+                    "Chocolate": "巧克力",
+                    "DarkChocolate": "黑巧克力",
+                    "Honeyed": "蜂蜜",
+                    "": "",
+                    "WhiteChocolate": "白巧克力"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_chips": "{0}碎片"
+            },
+            "parameters": [
+                {
+                    "butterscotch": "奶油硬糖",
+                    "caramel": "焦糖",
+                    "chocolate": "巧克力",
+                    "dark_chocolate": "黑巧克力",
+                    "toffee": "太妃糖",
+                    "white_chocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}ChipsEnabled": "启用{0}碎片"
+            },
+            "parameters": [
+                {
+                    "Butterscotch": "奶油硬糖",
+                    "Caramel": "焦糖",
+                    "Chocolate": "巧克力",
+                    "DarkChocolate": "黑巧克力",
+                    "Toffee": "太妃糖",
+                    "WhiteChocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}_cookie": "{0}曲奇",
+                "item.createfood.{0}_chocolate_cookie": "{0}巧克力曲奇",
+                "item.createfood.raw_{0}_cookie": "{0}曲奇生坯",
+                "item.createfood.raw_{0}_chocolate_cookie": "{0}巧克力曲奇生坯"
+            },
+            "parameters": [
+                {
+                    "butterscotch_chips": "奶油硬糖碎片",
+                    "caramel_chips": "焦糖碎片",
+                    "dark_chips": "黑巧克力碎片",
+                    "toffee_chips": "太妃糖碎片",
+                    "white_chips": "白巧克力碎片"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}CookieEnabled": "启用{0}曲奇",
+                "text.autoconfig.createfood.option.is{0}ChocolateCookieEnabled": "启用{0}巧克力曲奇",
+                "text.autoconfig.createfood.option.isRaw{0}CookieEnabled": "启用{0}曲奇生坯",
+                "text.autoconfig.createfood.option.isRaw{0}ChocolateCookieEnabled": "启用{0}巧克力曲奇生坯"
+            },
+            "parameters": [
+                {
+                    "ButterscotchChips": "奶油硬糖碎片",
+                    "CaramelChips": "焦糖碎片",
+                    "DarkChips": "黑巧克力碎片",
+                    "ToffeeChips": "太妃糖碎片",
+                    "WhiteChips": "白巧克力碎片"
+                }
+            ]
         }
     ]
 }

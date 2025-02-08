@@ -25,6 +25,10 @@
     "item.createfood.breakfast_sausages": "早餐香肠",
     "item.createfood.brown_sugar": "红糖",
     "item.createfood.butter": "黄油",
+    "item.createfood.butterscotch": "奶油硬糖",
+    "item.createfood.potato_chips": "薯片",
+    "item.createfood.chocolate_cookie": "巧克力曲奇",
+    "item.createfood.cookie_crumbs": "曲奇碎屑",
 
 
     "itemgroup.createfood": "Create: Food",
@@ -62,6 +66,10 @@
     "text.autoconfig.createfood.option.isBreakfastSausagesEnabled": "启用早餐香肠",
     "text.autoconfig.createfood.option.isBrownSugarEnabled": "启用红糖",
     "text.autoconfig.createfood.option.isButterEnabled": "启用黄油",
+    "text.autoconfig.createfood.option.isButterscotchEnabled": "启用奶油硬糖",
+    "text.autoconfig.createfood.option.isPotatoChipsEnabled": "启用薯片",
+    "text.autoconfig.createfood.option.isChocolateCookieEnabled": "启用巧克力曲奇",
+    "text.autoconfig.createfood.option.isCookieCrumbsEnabled": "启用曲奇碎屑",
 
 
     "text.autoconfig.createfood.title": "Create: Food 配置"
