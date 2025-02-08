@@ -18,6 +18,8 @@
     "item.createfood.chocolate_sweet_roll": "巧克力甜面包卷",
     "item.createfood.bacon_sandwich_lettuce": "培根三明治（生菜）",
     "item.createfood.ice_cream_sandwich_neapolitan": "冰淇淋三明治（那不勒斯冰淇淋）",
+    "item.createfood.mutton_sandwich_beetroot": "羊肉三明治（甜菜根）",
+    "item.createfood.bun": "圆面包",
 
 
     "itemgroup.createfood": "Create: Food",
@@ -47,7 +49,12 @@
     "text.autoconfig.createfood.option.isWhiteChocolatePastryBarEnabled": "启用白巧克力酥皮条",
     "text.autoconfig.createfood.option.isPastryEnabled": "启用油酥糕点",
     "text.autoconfig.createfood.option.isChocolateSweetRollEnabled": "启用巧克力甜面包卷",
-
+    "text.autoconfig.createfood.option.isBaconSandwichLettuceEnabled": "启用培根三明治（生菜）",
+    "text.autoconfig.createfood.option.isIceCreamSandwichNeapolitanEnabled": "启用冰淇淋三明治（那不勒斯冰淇淋）",
+    "text.autoconfig.createfood.option.isMuttonSandwichBeetrootEnabled": "启用羊肉三明治（甜菜根）",
+    "text.autoconfig.createfood.option.isCheeseEnabled": "启用芝士（块与片）",
+    "text.autoconfig.createfood.option.isRawCalzoneEnabled": "启用披萨饺子生坯",
+    "text.autoconfig.createfood.option.isBunEnabled": "启用圆面包",
 
 
     "text.autoconfig.createfood.title": "Create: Food 配置"
