@@ -41,6 +41,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "block.createfood.{0}_{1}_block": "{0}{1}流体",
@@ -84,6 +85,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "block.createfood.{0}_pie": "{0}派"
@@ -230,6 +232,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "block.createfood.{0}{1}{2}_pie_crust": "{1}{2}馅饼酥皮{0}"
@@ -275,6 +278,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "block.createfood.{0}_pizza": "{0}披萨",
@@ -328,6 +332,7 @@
                 }
             ]
         },
+        
         {
             "templates": {
                 "block.createfood.{0}cake_chorus_fruit": "{0}蛋糕（紫颂果）",
@@ -414,6 +419,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "item.createfood.{0}_cupcake": "{0}纸杯蛋糕"
@@ -448,6 +454,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "block.createfood.{0}gelatin_dessert_block": "{0}明胶甜品块",
@@ -503,6 +510,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "block.createfood.{0}_block": "{0}流体",
@@ -628,6 +636,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "block.createfood.{0}waffle": "{0}华夫饼"
@@ -701,6 +710,7 @@
                 }
             ]
         },
+        
         {
             "templates": {
                 "block.createfood.{0}_base": "{0}坯"
@@ -808,11 +818,139 @@
                 }
             ]
         },
+
         {
             "templates": {
-                "item.createfood.{0}_pastry_bar": "Apple Cream Filled Pastry Bar",
-                "item.createfood.{0}_chocolate_pastry_bar": "Apple Cream Filled Chocolate Pastry Bar"
+                "item.createfood.{0}_pastry_bar": "{0}馅酥皮条",
+                "item.createfood.{0}_chocolate_pastry_bar": "{0}馅巧克力酥皮条"
+            },
+            "parameters": [
+                {
+                    "apple_cream": "苹果奶油",
+                    "berry_cream": "甜浆果奶油",
+                    "caramel": "焦糖",
+                    "chorus_fruit_cream": "紫颂果奶油",
+                    "glow_berry_cream": "发光浆果奶油",
+                    "melon_cream": "西瓜奶油"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PastryBarEnabled": "启用{0}馅酥皮条",
+                "text.autoconfig.createfood.option.is{0}ChocolatePastryBarEnabled": "启用{0}馅巧克力酥皮条"
+            },
+            "parameters": [
+                {
+                    "AppleCream": "苹果奶油",
+                    "BerryCream": "甜浆果奶油",
+                    "Caramel": "焦糖",
+                    "ChorusFruit": "紫颂果",
+                    "ChorusFruitCream": "紫颂果奶油",
+                    "GlowBerryCream": "发光浆果奶油",
+                    "MelonCream": "西瓜奶油"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_pastry": "{0}馅油酥糕点",
+                "item.createfood.{0}_chocolate_pastry": "{0}馅巧克力油酥糕点"
+            },
+            "parameters": [
+                {
+                    "chocolate": "巧克力",
+                    "cream": "奶油",
+                    "dark_chocolate": "黑巧克力",
+                    "white_chocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PastryEnabled": "启用{0}馅油酥糕点",
+                "text.autoconfig.createfood.option.is{0}ChocolatePastryEnabled": "启用{0}馅巧克力油酥糕点"
+            },
+            "parameters": [
+                {
+                    "Chocolate": "巧克力",
+                    "Cream": "奶油",
+                    "DarkChocolate": "黑巧克力",
+                    "WhiteChocolate": "白巧克力"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.apple_cream_chocolate": "Apple Cream Filled Chocolate",
+                "item.createfood.apple_cream_dark_chocolate": "Apple Cream Filled Dark Chocolate",
+                "item.createfood.apple_cream_white_chocolate": "Apple Cream Filled White Chocolate"
             }
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_sweet_roll": "{0}甜面包卷",
+                "item.createfood.{0}_chocolate_sweet_roll": "{0}巧克力甜面包卷"
+            },
+            "parameters": [
+                {
+                    "apple_cream_frosted": "苹果奶油糖霜",
+                    "berry_cream_frosted": "甜浆果奶油糖霜",
+                    "caramel_glazed": "焦糖",
+                    "chocolate_frosted": "巧克力奶油糖霜",
+                    "chorus_fruit_cream_frosted": "紫颂果奶油糖霜",
+                    "glow_berry_cream_frosted": "发光浆果奶油糖霜",
+                    "honeyed": "蜂蜜",
+                    "melon_cream_frosted": "西瓜奶油糖霜"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.berry_cream_frosted_{0}sweet_roll_sweet_berry": "紫颂果奶油糖霜{0}甜面包卷（紫颂果）",
+                "item.createfood.chorus_fruit_cream_frosted_{0}sweet_roll_chorus_fruit": "紫颂果奶油糖霜{0}甜面包卷（紫颂果）",
+                "item.createfood.glow_berry_cream_frosted_{0}sweet_roll_glow_berry": "发光浆果奶油糖霜{0}甜面包卷（发光浆果）"
+            },
+            "parameters": [
+                {
+                    "chocolate_": "巧克力",
+                    "": ""
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}SweetRollEnabled": "启用{0}甜面包卷",
+                "text.autoconfig.createfood.option.is{0}ChocolateSweetRollEnabled": "启用{0}巧克力甜面包卷"
+            },
+            "parameters": [
+                {
+                    "AppleCreamFrosted": "苹果奶油糖霜",
+                    "BerryCreamFrosted": "甜浆果奶油糖霜",
+                    "CaramelGlazed": "焦糖",
+                    "ChocolateFrosted": "巧克力奶油糖霜",
+                    "ChorusFruitCreamFrosted": "紫颂果奶油糖霜",
+                    "GlowBerryCreamFrosted": "发光浆果奶油糖霜",
+                    "Honeyed": "蜂蜜",
+                    "MelonCreamFrosted": "西瓜奶油糖霜"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isBerryCreamFrosted{0}SweetRollSweetBerryEnabled": "启用甜浆果奶油糖霜{0}甜面包卷（甜浆果）",
+                "text.autoconfig.createfood.option.isChorusFruitCreamFrosted{0}SweetRollChorusFruitEnabled": "启用紫颂果奶油糖霜{0}甜面包卷（紫颂果）",
+                "text.autoconfig.createfood.option.isGlowBerryCreamFrosted{0}SweetRollGlowBerryEnabled": "启用发光浆果奶油糖霜{0}甜面包卷（发光浆果）"
+            },
+            "parameters": [
+                {
+                    "Chocolate": "巧克力",
+                    "": ""
+                }
+            ]
         }
     ]
 }
