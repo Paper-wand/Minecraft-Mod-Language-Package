@@ -5,7 +5,8 @@
             "templates": {
                 "block.createfood.{0}_cheesecake": "{0}芝士蛋糕",
                 "block.createfood.raw_{0}_cheesecake": "{0}芝士蛋糕生坯",
-                "item.createfood.{0}_cheesecake_slice": "{0}芝士蛋糕切片"
+                "item.createfood.{0}_cheesecake_slice": "{0}芝士蛋糕切片",
+                "item.createfood.{0}_popsicle": "{0}冰棍"
             },
             "parameters": [
                 {
@@ -30,7 +31,8 @@
         },
         {
             "templates": {
-                "text.autoconfig.createfood.option.isRaw{0}CheesecakeEnabled": "启用{0}芝士蛋糕生坯"
+                "text.autoconfig.createfood.option.isRaw{0}CheesecakeEnabled": "启用{0}芝士蛋糕生坯",
+                "text.autoconfig.createfood.option.is{0}PopsicleEnabled": "启用{0}冰棍"
             },
             "parameters": [
                 {
@@ -951,6 +953,138 @@
                     "": ""
                 }
             ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}cream_frosting_bottle": "{0}奶油糖霜罐"
+            },
+            "parameters": [
+                {
+                    "apple_": "苹果",
+                    "berry_": "甜浆果",
+                    "chocolate_": "巧克力",
+                    "chorus_fruit_": "紫颂果",
+                    "": "",
+                    "glow_berry_": "发光浆果",
+                    "melon_": "西瓜",
+                    "ube_": "香芋"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}CreamFrostingBottleEnabled": "启用{0}奶油糖霜罐"
+            },
+            "parameters": [
+                {
+                    "Apple": "苹果",
+                    "Berry": "甜浆果",
+                    "Chocolate": "巧克力",
+                    "ChorusFruit": "紫颂果",
+                    "": "",
+                    "GlowBerry": "发光浆果",
+                    "Melon": "西瓜",
+                    "Ube": "香芋"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_jam_bottle": "{0}酱罐",
+                "item.createfood.{0}_juice_bottle": "{0}汁"
+            },
+            "parameters": [
+                {
+                    "apple": "苹果",
+                    "berry": "甜浆果",
+                    "chorus_fruit": "紫颂果",
+                    "glow_berry": "发光浆果",
+                    "melon": "西瓜"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}JamBottleEnabled": "启用{0}酱罐",
+                "text.autoconfig.createfood.option.is{0}JuiceBottleEnabled": "启用{0}汁"
+            },
+            "parameters": [
+                {
+                    "Apple": "苹果",
+                    "Berry": "甜浆果",
+                    "ChorusFruit": "紫颂果",
+                    "GlowBerry": "发光浆果",
+                    "Melon": "西瓜"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_donut": "{0}甜甜圈",
+                "item.createfood.{0}_chocolate_donut": "{0}巧克力甜甜圈"
+            },
+            "parameters": [
+                {
+                    "apple_cream_glazed": "苹果奶油糖霜",
+                    "berry_cream_glazed": "甜浆果奶油糖霜",
+                    "chocolate_glazed": "巧克力奶油糖霜",
+                    "chorus_fruit_cream_glazed": "紫颂果奶油糖霜",
+                    "cream_glazed": "奶油糖霜",
+                    "glow_berry_cream_glazed": "发光浆果奶油糖霜",
+                    "honeyed": "蜂蜜",
+                    "melon_cream_glazed": "西瓜奶油糖霜"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}DonutEnabled": "启用{0}甜甜圈",
+                "text.autoconfig.createfood.option.is{0}ChocolateDonutEnabled": "启用{0}巧克力甜甜圈"
+            },
+            "parameters": [
+                {
+                    "AppleCreamGlazed": "苹果奶油糖霜",
+                    "BerryCreamGlazed": "甜浆果奶油糖霜",
+                    "ChocolateGlazed": "巧克力奶油糖霜",
+                    "ChorusFruitCreamGlazed": "紫颂果奶油糖霜",
+                    "CreamGlazed": "奶油糖霜",
+                    "Glazed": "糖霜",
+                    "GlowBerryCreamGlazed": "发光浆果奶油糖霜",
+                    "Honeyed": "蜂蜜",
+                    "MelonCreamGlazed": "西瓜奶油糖霜"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}donut_hole": "{0}甜甜圈洞",
+                "item.createfood.{0}donut_hole_sugar": "涂粉的{0}甜甜圈洞",
+                "item.createfood.{0}donut_sugar": "涂粉的{0}甜甜圈"
+            },
+            "parameters": [
+                {
+                    "chocolate_": "巧克力",
+                    "": ""
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}DonutHoleEnabled": "启用{0}甜甜圈洞",
+                "text.autoconfig.createfood.option.is{0}DonutHoleSugarEnabled": "启用涂粉的{0}甜甜圈洞",
+                "text.autoconfig.createfood.option.is{0}DonutSugarEnabled": "启用涂粉的{0}甜甜圈"              
+            },
+            "parameters": [
+                {
+                    "Chocolate": "巧克力",
+                    "": ""
+                }
+            ]
         }
+
+
     ]
 }
