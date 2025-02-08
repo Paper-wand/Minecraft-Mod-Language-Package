@@ -2,7 +2,6 @@
     "block.createfood.cheesecake": "芝士蛋糕",
     "block.createfood.raw_cheesecake": "芝士蛋糕生坯",
     "block.createfood.raw_pie_crust": "馅饼酥皮生胚",
-    "block.createfood.pizza_dough": "披萨面团",
     "block.createfood.pizza_dough_tomato_sauce": "披萨面团（番茄酱）",
     "block.minecraft.cake": "蛋糕（甜浆果）",
 
@@ -20,6 +19,12 @@
     "item.createfood.ice_cream_sandwich_neapolitan": "冰淇淋三明治（那不勒斯冰淇淋）",
     "item.createfood.mutton_sandwich_beetroot": "羊肉三明治（甜菜根）",
     "item.createfood.bun": "圆面包",
+    "item.createfood.blackstrap_molasses_bottle": "黑糖蜜",
+    "item.createfood.pumpernickel_bread": "黑麦粗面包",
+    "item.createfood.breakfast_bar": "早餐棒",
+    "item.createfood.breakfast_sausages": "早餐香肠",
+    "item.createfood.brown_sugar": "红糖",
+    "item.createfood.butter": "黄油",
 
 
     "itemgroup.createfood": "Create: Food",
@@ -37,7 +42,6 @@
 
     "text.autoconfig.createfood.option.isCheesecakeEnabled": "启用芝士蛋糕",
     "text.autoconfig.createfood.option.isRawCheesecakeEnabled": "启用芝士蛋糕生坯",
-    "text.autoconfig.createfood.option.isPizzaDoughEnabled": "启用披萨面团",
     "text.autoconfig.createfood.option.isPizzaDoughTomatoSauceEnabled": "启用披萨面团（番茄酱）",
     "text.autoconfig.createfood.option.isGelatinEnabled": "启用明胶",
     "text.autoconfig.createfood.option.isBerryCreamFrostedMiniWaffleSweetBerryEnabled": "启用甜浆果奶油糖霜迷你华夫饼（甜浆果）",
@@ -45,7 +49,6 @@
     "text.autoconfig.createfood.option.isGlowBerryCreamFrostedMiniWaffleGlowBerryEnabled": "启用发光浆果奶油糖霜迷你华夫饼（发光浆果）",
     "text.autoconfig.createfood.option.isWaffleConeEnabled": "启用华夫饼筒",
     "text.autoconfig.createfood.option.isUbeCreamFrostedUbeCakeEnabled": "启用香芋奶油糖霜香芋蛋糕",
-    "text.autoconfig.createfood.option.isRawCupcakeEnabled": "启用纸杯蛋糕生坯",
     "text.autoconfig.createfood.option.isWhiteChocolatePastryBarEnabled": "启用白巧克力酥皮条",
     "text.autoconfig.createfood.option.isPastryEnabled": "启用油酥糕点",
     "text.autoconfig.createfood.option.isChocolateSweetRollEnabled": "启用巧克力甜面包卷",
@@ -53,8 +56,12 @@
     "text.autoconfig.createfood.option.isIceCreamSandwichNeapolitanEnabled": "启用冰淇淋三明治（那不勒斯冰淇淋）",
     "text.autoconfig.createfood.option.isMuttonSandwichBeetrootEnabled": "启用羊肉三明治（甜菜根）",
     "text.autoconfig.createfood.option.isCheeseEnabled": "启用芝士（块与片）",
-    "text.autoconfig.createfood.option.isRawCalzoneEnabled": "启用披萨饺子生坯",
     "text.autoconfig.createfood.option.isBunEnabled": "启用圆面包",
+    "text.autoconfig.createfood.option.isPumpernickelBreadEnabled": "启用黑麦粗面包",
+    "text.autoconfig.createfood.option.isBreakfastBarEnabled": "启用早餐棒",
+    "text.autoconfig.createfood.option.isBreakfastSausagesEnabled": "启用早餐香肠",
+    "text.autoconfig.createfood.option.isBrownSugarEnabled": "启用红糖",
+    "text.autoconfig.createfood.option.isButterEnabled": "启用黄油",
 
 
     "text.autoconfig.createfood.title": "Create: Food 配置"

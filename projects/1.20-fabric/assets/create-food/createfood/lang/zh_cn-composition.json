@@ -817,7 +817,20 @@
             "parameters": [
                 {
                     "cupcake": "纸杯蛋糕",
-                    "calzone": "披萨饺子"
+                    "calzone": "披萨饺子",
+                    "muffin": "松糕"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isRaw{0}Enabled": "启用{0}生坯"
+            },
+            "parameters": [
+                {
+                    "Cupcake": "纸杯蛋糕",
+                    "Calzone": "披萨饺子",
+                    "Muffin": "松糕"
                 }
             ]
         },
@@ -1562,6 +1575,242 @@
                     "": "",
                     "CrimsonFungus": "（绯红菌）",
                     "WarpedFungus": "（诡异菌）"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}biscuit": "{0}饼干"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "cheese_and_sausage_": "芝士香肠",
+                    "cheese_": "芝士",
+                    "honeyed_": "蜂蜜",
+                    "sausage_": "香肠"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}BiscuitEnabled": "启用{0}饼干"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "CheeseAndSausage": "芝士香肠",
+                    "Cheese": "芝士",
+                    "Honeyed": "蜂蜜",
+                    "Sausage": "香肠"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.bread{0}": "面包{0}"
+            },
+            "parameters": [
+                {
+                    "_fried_egg": "（煎蛋）",
+                    "_lettuce": "（生菜）",
+                    "_lettuce_carrot": "（生菜、胡萝卜）"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isBread{0}Enabled": "启用面包{0}"
+            },
+            "parameters": [
+                {
+                    "FriedEgg": "（煎蛋）",
+                    "Lettuce": "（生菜）",
+                    "LettuceCarrot": "（生菜、胡萝卜）"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.bread_slice{0}": "面包片{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "_apple_jam": "苹果酱",
+                    "_bacon": "（培根）",
+                    "_bacon_lettuce": "（培根、生菜）",
+                    "_bacon_lettuce_tomato": "（培根、生菜、番茄）",
+                    "_beetroot": "（甜菜根）",
+                    "_beetroot_lettuce": "（甜菜根、生菜）",
+                    "_berry_jam": "（甜浆果酱）",
+                    "_cheese": "（芝士）",
+                    "_chorus_fruit_jam": "（紫颂果酱）",
+                    "_glow_berry_jam": "（发光浆果酱）",
+                    "_honey": "（蜂蜜）",
+                    "_lettuce": "（生菜）",
+                    "_lettuce_tomato": "（生菜、番茄）",
+                    "_melon_jam": "（西瓜酱）",
+                    "_mutton": "（羊肉）",
+                    "_mutton_beetroot": "（羊肉、甜菜根）",
+                    "_peanut_butter": "（花生酱）"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isBreadSlice{0}Enabled": "启用面包片{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "AppleJam": "苹果酱",
+                    "Bacon": "（培根）",
+                    "BaconLettuce": "（培根、生菜）",
+                    "BaconLettuceTomato": "（培根、生菜、番茄）",
+                    "Beetroot": "（甜菜根）",
+                    "BeetrootLettuce": "（甜菜根、生菜）",
+                    "BerryJam": "（甜浆果酱）",
+                    "Cheese": "（芝士）",
+                    "ChorusFruitJam": "（紫颂果酱）",
+                    "GlowBerryJam": "（发光浆果酱）",
+                    "Honey": "（蜂蜜）",
+                    "Lettuce": "（生菜）",
+                    "LettuceTomato": "（生菜、番茄）",
+                    "MelonJam": "（西瓜酱）",
+                    "Mutton": "（羊肉）",
+                    "MuttonBeetroot": "（羊肉、甜菜根）",
+                    "PeanutButter": "（花生酱）"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_dough": "{0}面团"
+            },
+            "parameters": [
+                {
+                    "butter": "黄油",
+                    "chocolate_sugar": "巧克力糖",
+                    "pumpernickel": "黑麦",
+                    "salt": "盐",
+                    "sugar": "糖",
+                    "ube_sugar": "香芋糖",
+                    "pizza": "披萨"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}DoughEnabled": "启用{0}面团"
+            },
+            "parameters": [
+                {
+                    "Butter": "黄油",
+                    "ChocolateSugar": "巧克力糖",
+                    "Pumpernickel": "黑麦",
+                    "Salt": "盐",
+                    "Sugar": "糖",
+                    "UbeSugar": "香芋糖",
+                    "Pizza": "披萨"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.{0}_dough_small": "{0}面团（小）"
+            },
+            "parameters": [
+                {
+                    "butter": "黄油",
+                    "salt": "盐",
+                    "sugar": "糖"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}DoughSmallEnabled": "启用{0}面团（小）"
+            },
+            "parameters": [
+                {
+                    "Butter": "黄油",
+                    "Salt": "盐",
+                    "Sugar": "糖"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_muffin": "松糕",
+                "item.createfood.raw_{0}_muffin": "{0}松糕生坯"
+            },
+            "parameters": [
+                {
+                    "butterscotch_chip": "奶油硬糖碎片",
+                    "caramel_chip": "焦糖碎片",
+                    "chocolate_chip": "巧克力碎片",
+                    "dark_chocolate_chip": "黑巧克力碎片",
+                    "honeyed": "蜂蜜",
+                    "toffee_chip": "太妃糖碎片",
+                    "white_chocolate_chip": "白巧克力碎片"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}MuffinEnabled": "启用{0}松糕",
+                "text.autoconfig.createfood.option.isRaw{0}MuffinEnabled": "启用{0}松糕生坯"
+            },
+            "parameters": [
+                {
+                    "ButterscotchChip": "奶油硬糖碎片",
+                    "CaramelChip": "焦糖碎片",
+                    "ChocolateChip": "巧克力碎片",
+                    "DarkChocolateChip": "黑巧克力碎片",
+                    "Honeyed": "蜂蜜",
+                    "ToffeeChip": "太妃糖碎片",
+                    "WhiteChocolateChip": "白巧克力碎片"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_plate": "{0}盘"
+            },
+            "parameters": [
+                {
+                    "breakfast": "早餐",
+                    "fried_egg": "煎蛋",
+                    "hash_brown_fried_egg": "薯饼煎蛋",
+                    "hash_brown": "薯饼",
+                    "hash_brown_toast": "薯饼吐司",
+                    "pasta": "意面",
+                    "toast_fried_egg": "吐司煎蛋",
+                    "toast": "吐司"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PlateEnabled": "启用{0}盘"
+            },
+            "parameters": [
+                {
+                    "Breakfast": "早餐",
+                    "FriedEgg": "煎蛋",
+                    "HashBrownAndFriedEgg": "薯饼煎蛋",
+                    "HashBrown": "薯饼",
+                    "HashBrownAndToast": "薯饼吐司",
+                    "Pasta": "意面",
+                    "ToastAndFriedEgg": "吐司煎蛋",
+                    "Toast": "吐司"
                 }
             ]
         }
