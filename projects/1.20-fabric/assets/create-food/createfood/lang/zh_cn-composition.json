@@ -818,7 +818,8 @@
                 {
                     "cupcake": "纸杯蛋糕",
                     "calzone": "披萨饺子",
-                    "muffin": "松糕"
+                    "muffin": "松糕",
+                    "cookie": "曲奇"
                 }
             ]
         },
@@ -830,7 +831,8 @@
                 {
                     "Cupcake": "纸杯蛋糕",
                     "Calzone": "披萨饺子",
-                    "Muffin": "松糕"
+                    "Muffin": "松糕",
+                    "Cookie": "曲奇"
                 }
             ]
         },
@@ -1877,6 +1879,7 @@
                 }
             ]
         },
+
         {
             "templates": {
                 "item.createfood.{0}_cookie": "{0}曲奇",
@@ -1908,6 +1911,57 @@
                     "DarkChips": "黑巧克力碎片",
                     "ToffeeChips": "太妃糖碎片",
                     "WhiteChips": "白巧克力碎片"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.raw_{0}_cookie": "{0}曲奇生坯"
+            },
+            "parameters": [
+                {
+                    "chocolate": "巧克力",
+                    "chorus": "紫颂",
+                    "flesh": "腐肉",
+                    "ginger": "生姜",
+                    "green_tea": "绿茶",
+                    "honey": "蜂蜜",
+                    "soul_berry": "灵魂浆果",
+                    "spider_eye": "蜘蛛眼",
+                    "sugar": "甜",
+                    "sweet_berry": "甜浆果",
+                    "ube": "香芋"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isRaw{0}CookieEnabled": "启用{0}曲奇生坯"
+            },
+            "parameters": [
+                {
+                    "Chocolate": "巧克力",
+                    "Chorus": "紫颂",
+                    "Flesh": "腐肉",
+                    "Ginger": "生姜",
+                    "GreenTea": "绿茶",
+                    "Honey": "蜂蜜",
+                    "SoulBerry": "灵魂浆果",
+                    "SpiderEye": "蜘蛛眼",
+                    "Sugar": "甜",
+                    "SweetBerry": "甜浆果",
+                    "Ube": "香芋"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_fudge": "{0}软糖"
+            },
+            "parameters": [
+                {
+
                 }
             ]
         }
