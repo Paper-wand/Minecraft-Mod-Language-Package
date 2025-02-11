@@ -819,7 +819,8 @@
                     "cupcake": "纸杯蛋糕",
                     "calzone": "披萨饺子",
                     "muffin": "松糕",
-                    "cookie": "曲奇"
+                    "cookie": "曲奇",
+                    "snickerdoodle": "肉桂曲奇"
                 }
             ]
         },
@@ -832,7 +833,8 @@
                     "Cupcake": "纸杯蛋糕",
                     "Calzone": "披萨饺子",
                     "Muffin": "松糕",
-                    "Cookie": "曲奇"
+                    "Cookie": "曲奇",
+                    "Snickerdoodle": "肉桂曲奇"
                 }
             ]
         },
@@ -902,10 +904,41 @@
 
         {
             "templates": {
-                "item.createfood.apple_cream_chocolate": "Apple Cream Filled Chocolate",
-                "item.createfood.apple_cream_dark_chocolate": "Apple Cream Filled Dark Chocolate",
-                "item.createfood.apple_cream_white_chocolate": "Apple Cream Filled White Chocolate"
-            }
+                "item.createfood.{0}_chocolate": "{0}夹心巧克力",
+                "item.createfood.{0}_dark_chocolate": "{0}夹心黑巧克力",
+                "item.createfood.{0}_white_chocolate": "{0}夹心白巧克力"
+            },
+            "parameters": [
+                {
+                    "apple_cream": "苹果奶油",
+                    "berry_cream": "甜浆果奶油",
+                    "caramel": "焦糖",
+                    "chorus_fruit_cream": "紫颂果奶油",
+                    "cream": "奶油",
+                    "glow_berry_cream": "发光浆果奶油",
+                    "marshmallow": "棉花糖",
+                    "melon_cream": "西瓜奶油"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}ChocolateEnabled": "启用{0}夹心巧克力",
+                "text.autoconfig.createfood.option.is{0}DarkChocolateEnabled": "启用{0}夹心黑巧克力",
+                "text.autoconfig.createfood.option.is{0}WhiteChocolateEnabled": "启用{0}夹心白巧克力"              
+            },
+            "parameters": [
+                {
+                    "AppleCream": "苹果奶油",
+                    "BerryCream": "甜浆果奶油",
+                    "Caramel": "焦糖",
+                    "ChorusFruitCream": "紫颂果奶油",
+                    "Cream": "奶油",
+                    "GlowBerryCream": "发光浆果奶油",
+                    "Marshmallow": "棉花糖",
+                    "MelonCream": "西瓜奶油"
+                }
+            ]
         },
 
         {
@@ -1957,11 +1990,499 @@
 
         {
             "templates": {
-                "item.createfood.{0}_fudge": "{0}软糖"
+                "item.createfood.{0}_fudge": "{0}软糖",
+                "item.createfood.marshmallow_{0}_fudge": "棉花糖{0}软糖"
             },
             "parameters": [
                 {
+                    "butterscotch": "奶油",
+                    "caramel": "焦糖",
+                    "chocolate": "巧克力",
+                    "coffee_toffee": "咖啡太妃",
+                    "dark_chocolate": "黑巧克力",
+                    "toffee": "太妃",
+                    "white_chocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}FudgeEnabled": "启用{0}软糖",
+                "text.autoconfig.createfood.option.isMarshmallow{0}FudgeEnabled": "启用棉花糖{0}软糖"
+            },
+            "parameters": [
+                {
+                    "Butterscotch": "奶油",
+                    "Caramel": "焦糖",
+                    "Chocolate": "巧克力",
+                    "CoffeeToffee": "咖啡太妃",
+                    "DarkChocolate": "黑巧克力",
+                    "Toffee": "太妃",
+                    "WhiteChocolate": "白巧克力"
+                }
+            ]
+        },
 
+        {
+            "templates": {
+                "item.createfood.{0}_glazed_apple": "{0}包层苹果"
+            },
+            "parameters": [
+                {
+                    "caramel": "焦糖",
+                    "chocolate": "巧克力",
+                    "dark_chocolate": "黑巧克力",
+                    "white_chocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}GlazedAppleEnabled": "启用{0}包层苹果"
+            },
+            "parameters": [
+                {
+                    "Caramel": "焦糖",
+                    "Chocolate": "巧克力",
+                    "DarkChocolate": "黑巧克力",
+                    "WhiteChocolate": "白巧克力"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_berries": "{0}浆果"
+            },
+            "parameters": [
+                {
+                    "caramel_glazed": "焦糖包层",
+                    "dark_chocolate_glazed": "黑巧克力包层",
+                    "honeyed": "蜜渍",
+                    "white_chocolate_glazed": "白巧克力包层"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}BerriesEnabled": "启用{0}浆果"
+            },
+            "parameters": [
+                {
+                    "CaramelGlazed": "焦糖包层",
+                    "sDarkChocolateGlazed": "黑巧克力包层",
+                    "Honeyed": "蜜渍",
+                    "WhiteChocolateGlazed": "白巧克力包层"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_nuggets": "{0}块"
+            },
+            "parameters": [
+                {
+                    "chicken": "鸡",
+                    "spicy_chicken": "辣鸡"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}NuggetsEnabled": "启用{0}块"
+            },
+            "parameters": [
+                {
+                    "Chicken": "鸡",
+                    "SpicyChicken": "辣鸡"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_patty": "{0}饼"
+            },
+            "parameters": [
+                {
+                    "chicken": "鸡肉",
+                    "dragon": "龙肉",
+                    "sausage": "香肠",
+                    "unbreaded_chicken": "未裹面包屑的鸡肉"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PattyEnabled": "启用{0}饼"
+            },
+            "parameters": [
+                {
+                    "Chicken": "鸡肉",
+                    "Dragon": "龙肉",
+                    "Sausage": "香肠",
+                    "UnbreadedChicken": "未裹面包屑的鸡肉"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_bottle": "{0}瓶"
+            },
+            "parameters": [
+                {
+                    "chocolate": "巧克力",
+                    "dark_chocolate": "黑巧克力",
+                    "white_chocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}BottleEnabled": "启用{0}瓶"
+            },
+            "parameters": [
+                {
+                    "Chocolate": "巧克力",
+                    "DarkChocolate": "黑巧克力",
+                    "WhiteChocolate": "白巧克力"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}marshmallow_stick": "{0}棉花糖串"
+            },
+            "parameters": [
+                {
+                    "chocolate_covered_": "巧克力淋面",
+                    "dark_chocolate_covered_": "黑巧克力淋面",
+                    "magma_cream_": "岩浆奶油",
+                    "": "",
+                    "white_chocolate_covered_": "白巧克力淋面"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}MarshmallowStickEnabled": "启用{0}棉花糖串"
+            },
+            "parameters": [
+                {
+                    "ChocolateCovered": "巧克力淋面",
+                    "DarkChocolateCovered": "黑巧克力淋面",
+                    "MagmaCream": "岩浆奶油",
+                    "": "",
+                    "WhiteChocolateCovered": "白巧克力淋面"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.chocolate_graham_cracker{0}": "巧克力全麦粉饼干{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "_crumbs": "屑",
+                    "_ice_cream": "（冰淇淋）",
+                    "_neapolitan_scoop_1": "（那不勒斯冰淇淋，第1勺）",
+                    "_neapolitan_scoop_2": "（那不勒斯冰淇淋，第2勺）",
+                    "_neapolitan_scoop_3": "（那不勒斯冰淇淋，第3勺）"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isChocolateGrahamCracker{0}Enabled": "启用巧克力全麦粉饼干{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "Crumbs": "屑",
+                    "IceCream": "（冰淇淋）",
+                    "NeapolitanScoop1": "（那不勒斯冰淇淋，第1勺）",
+                    "NeapolitanScoop2": "（那不勒斯冰淇淋，第2勺）",
+                    "NeapolitanScoop3": "（那不勒斯冰淇淋，第3勺）"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "item.createfood.graham_cracker{0}": "全麦粉饼干{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "_chocolate": "（巧克力）",
+                    "_chocolate_marshmallow": "（巧克力、棉花糖）",
+                    "_crumbs": "屑",
+                    "_marshmallow": "（棉花糖）"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isGrahamCracker{0}Enabled": "启用全麦粉饼干{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "Chocolate": "（巧克力）",
+                    "ChocolateMarshmallow": "（巧克力、棉花糖）",
+                    "Crumbs": "屑",
+                    "Marshmallow": "（棉花糖）"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.cloth_filter{0}": "滤布{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "_cacao_mass": "（可可原浆）"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isClothFilter{0}Enabled": "启用滤布{0}"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "CacaoMass": "（可可原浆）"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}_powder": "{0}粉"
+            },
+            "parameters": [
+                {
+                    "cocoa": "可可",
+                    "egg": "蛋",
+                    "espresso": "浓咖啡",
+                    "milk": "奶"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}PowderEnabled": "启用{0}粉"
+            },
+            "parameters": [
+                {
+                    "Cocoa": "可可",
+                    "Egg": "蛋",
+                    "Espresso": "浓咖啡",
+                    "Milk": "奶"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.bar_of_{0}": "{0}条"
+            },
+            "parameters": [
+                {
+                    "dark_chocolate": "黑巧克力",
+                    "white_chocolate": "白巧克力"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}BarEnabled": "启用{0}条"
+            },
+            "parameters": [
+                {
+                    "DarkChocolate": "黑巧克力",
+                    "WhiteChocolate": "白巧克力"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}meatball": "{0}肉丸",
+                "item.createfood.{0}meatball_stick_1": "{0}肉丸串",
+                "item.createfood.{0}meatball_stick_2": "{0}肉丸串",
+                "item.createfood.{0}meatball_stick_3": "{0}肉丸串",
+                "item.createfood.raw_{0}meatball": "{0}肉丸生坯",
+                "item.createfood.small_{0}meatballs": "小{0}肉丸"
+            },
+            "parameters": [
+                {
+                    "endermite_": "末影螨",
+                    "": "",
+                    "strider_": "炽足兽"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}MeatballEnabled": "启用{0}肉丸",
+                "text.autoconfig.createfood.option.is{0}MeatballStickEnabled": "启用{0}肉丸串",
+                "text.autoconfig.createfood.option.isRaw{0}MeatballEnabled": "启用{0}肉丸生坯",
+                "text.autoconfig.createfood.option.isSmall{0}MeatballsEnabled": "启用小{0}肉丸"
+            },
+            "parameters": [
+                {
+                    "Endermite": "末影螨",
+                    "": "",
+                    "Strider": "炽足兽"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.ground_{0}": "{0}末"
+            },
+            "parameters": [
+                {
+                    "beef": "牛肉",
+                    "endermite": "末影螨肉"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isGround{0}Enabled": "启用{0}末"
+            },
+            "parameters": [
+                {
+                    "Beef": "牛肉",
+                    "Endermite": "末影螨肉"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.hollow_{0}chocolate": "空心{0}巧克力",
+                "item.createfood.hot_{0}chocolate_bottle": "热{0}巧克力"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "dark_": "黑",
+                    "white_": "白"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isHollow{0}ChocolateEnabled": "启用空心{0}巧克力",
+                "text.autoconfig.createfood.option.isHot{0}ChocolateBottleEnabled": "启用热{0}巧克力"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "Dark": "黑",
+                    "White": "白"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.{0}marshmallow": "{0}棉花糖"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "magma_cream_": "岩浆奶油"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.is{0}MarshmallowEnabled": "启用{0}棉花糖"
+            },
+            "parameters": [
+                {
+                    "": "",
+                    "MagmaCream": "岩浆奶油"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.pasta_plate_{0}": "{0}意面"
+            },
+            "parameters": [
+                {
+                    "butter": "黄油",
+                    "eggplant": "茄子",
+                    "endermite_meatballs": "末影螨肉丸",
+                    "endermite_meatballs_tomato_sauce": "末影螨肉丸番茄酱",
+                    "fish": "鱼肉",
+                    "meatballs": "肉丸",
+                    "mutton_chop": "羊排",
+                    "slime": "黏液",
+                    "slimeballs": "黏液球",
+                    "squid_ink": "鱿鱼墨汁",
+                    "strider_meatballs": "炽足兽肉丸",
+                    "strider_meatballs_tomato_sauce": "炽足兽肉丸番茄酱",
+                    "tomato_sauce": "番茄酱"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isPastaPlateButterEnabled": "启用{0}意面"
+            },
+            "parameters": [
+                {
+                    "Butter": "黄油",
+                    "Eggplant": "茄子",
+                    "EndermiteMeatballs": "末影螨肉丸",
+                    "EndermiteMeatballsTomatoSauce": "末影螨肉丸番茄酱",
+                    "Fish": "鱼肉",
+                    "Meatballs": "肉丸",
+                    "MuttonChop": "羊排",
+                    "Slime": "黏液",
+                    "Slimeballs": "黏液球",
+                    "SquidInk": "鱿鱼墨汁",
+                    "StriderMeatballs": "炽足兽肉丸",
+                    "StriderMeatballsTomatoSauce": "炽足兽肉丸番茄酱",
+                    "TomatoSauce": "番茄酱"
+                }
+            ]
+        },
+
+        {
+            "templates": {
+                "item.createfood.shredded_{0}": "切碎的{0}"
+            },
+            "parameters": [
+                {
+                    "chicken": "鸡肉",
+                    "potato": "马铃薯"
+                }
+            ]
+        },
+        {
+            "templates": {
+                "text.autoconfig.createfood.option.isShreddedPotatoEnabled": "启用切碎的{0}"
+            },
+            "parameters": [
+                {
+                    "Chicken": "鸡肉",
+                    "Potato": "马铃薯"
                 }
             ]
         }
